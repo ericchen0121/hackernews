@@ -1,0 +1,7 @@
+<% if @comments_data %>
+  <% @comments_data.each do |comment|%>
+    <ul>
+      <li><%= comment[:comment] %></li>
+    </ul>
+  <% end %>
+<% end %>
